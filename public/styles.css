@@ -1,0 +1,35 @@
+/* Estilos para centrar el contenido en la pantalla */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Estilos para el "card" */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Estilos para el título "Precio Especial" */
+h1.special-price {
+  background-color: #FF6F61;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  border-radius: 8px 8px 0 0; /* Redondea solo la parte superior */
+}
+
+/* Estilos para el mensaje de precio especial */
+p.special-message {
+  font-size: 24px;
+  color: #FF6F61;
+  font-weight: bold;
+}
